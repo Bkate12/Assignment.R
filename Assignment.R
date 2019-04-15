@@ -1,5 +1,5 @@
 my.age <- 24 #Beginning Part 1, make age variable
-my.name <- 'Brenna' #make name variable
+my.name <- "Brenna Cox" #make name variable
 MakeIntroduction <- c(my.name, my.age) #define function MakeIntroduction
 My.Intro <- paste("Hello my name is", my.name, "and I am", my.age, "years old") #new variable My.Intro
 My.Intro 
