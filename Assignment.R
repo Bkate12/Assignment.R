@@ -1,4 +1,4 @@
-#Beginning Part 1, make age variable
+#Part 1, make age variable
 my.age <- 24
 #make name variable
 my.name <- "Brenna Cox"
@@ -10,7 +10,8 @@ My.Intro
 #create a casual intro with subsitition 
 Casual.intro <- sub("Hello my name is", "Hey, I am", "Hello my name is Brenna Cox and I am 24 years old")
 Casual.intro
-books <- c("The Five People You Meet in Heaven",  "Becoming", "Illusions The Tale of a Reluctant Messiah", "Ishmael", "A Single Man", "Atonement") #Beginning Part 2
+#Part 2
+books <- c("The Five People You Meet in Heaven",  "Becoming", "Illusions The Tale of a Reluctant Messiah", "Ishmael", "A Single Man", "Atonement") 
 books
 #create variable for top three books in list
 top.three.books <- books[c(1,2,3)] 
@@ -20,4 +21,5 @@ book.reviews <- paste(books, "is a great read!")
 books.without.four <- books[c(-4)] 
 books.without.four
 long.titles <- c(nchar(x)=15) #only books with 15 characters or less
-numbers <- #Beginning Part 3
+#Part 3
+numbers <- 1:201
